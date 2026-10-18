@@ -1,4 +1,4 @@
-# ZOOstudio Pre 0.10.1
+# ZOOstudio Pre 0.10.2
 
 **無料・人柱版です。正式ローンチ版は有料化予定です。**
 
@@ -6,7 +6,9 @@
 
 **0.10.0からTVRockを起動せずに、日時指定の予約録画ができます。** Studio自身が予約を保存し、時刻に合わせてTVTestの起動・録画開始・終了を管理します。既存Zooを開く方式からStudio自身の予約画面へ変更しました。
 
-[**インストーラーをダウンロード**](https://github.com/newfrontierstudio/zoostudio/releases/tag/v0.10.1-pre.1)
+[**インストーラーをダウンロード**](https://github.com/newfrontierstudio/zoostudio/releases/tag/v0.10.2-pre.1)
+
+0.10.2では、選択中のタブをZooと同じ淡い青紫に調整しました。
 
 ## 今できること
 
