@@ -1,0 +1,6 @@
+*.exe
+*.zip
+*.pdb
+*.ts
+*.mp4
+artifacts/
