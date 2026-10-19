@@ -1,10 +1,10 @@
-# ZOOstudio Pre 0.13.2
+# ZOOstudio Pre 0.13.3
 
 **無料・人柱版です。正式ローンチ版は有料化予定です。**
 
 **TVRockのリプレイスを目指す予約・番組表・録画管理アプリです。** 予約の保存と録画時刻の管理はStudio、受信・録画は設定済みのTVTest・BonDriverが担当します。予約録画の実行にTVRock本体は不要です。
 
-[**インストーラーをダウンロード**](https://github.com/newfrontierstudio/zoostudio/releases/tag/v0.13.2-pre.1)
+[**インストーラーをダウンロード**](https://github.com/newfrontierstudio/zoostudio/releases/tag/v0.13.3-pre.1)
 
 **Zooと同じ操作画面で、Studioの録画予約を管理できます。** TVRockに登録済みの録画予約も、内容を確認して取り込めます。
 
@@ -77,7 +77,7 @@ TVRock本体・TVRock Zooは取り込み後の予約録画の実行には不要�
 
 今回の配布用ビルドで、初期設定から共通Zoo画面への移動、予約の取り込み・編集・有効／無効・時間補正、番組表からの予約を合成データで確認しました。StudioからTVRockへ予約を送信しないことも確認しています。
 
-録画処理は、以前の版でTVRockを起動せずに約15秒の実予約録画を2回確認しています。**0.13.2で長時間・複数局同時録画・他PC・他BonDriver・BS/CSを新たに実機検証したものではありません。** [詳しい検証範囲](VALIDATION.md)。
+録画処理は、以前の版でTVRockを起動せずに約15秒の実予約録画を2回確認しています。**0.13.3で長時間・複数局同時録画・他PC・他BonDriver・BS/CSを新たに実機検証したものではありません。** [詳しい検証範囲](VALIDATION.md)。
 
 新規BonDriver導入・全周波数スキャン・地域コード自動設定は未実装です。実行ファイルは未署名です。
 
@@ -110,3 +110,7 @@ Preの利用は正式版の無料ライセンスを約束するものではあ�
 
 追加の診断ログは通信の成否・所要時間や予約保存などを記録します。番組名・接続先URL・個人のパス・応答本文・例外のメッセージは記録せず、自動送信もしません。ログは1ファイル約1MBを上限に前回分へ切り替えます。
 保存先：`%LOCALAPPDATA%\ZOOstudioPre\zoo-ui` の `diagnostic.jsonl` と `errors.jsonl`。
+
+## 不具合の連絡先
+
+[newfrontierstudio@gmail.com](mailto:newfrontierstudio@gmail.com) へ、製品名・バージョン・操作と結果をお知らせください。詳細設定の診断ログの近くとHELPにも「不具合を報告」を用意しました。メール作成画面を開く方式で、ログは内容を確認して手動で添付できます。自動送信・自動添付はしません。
