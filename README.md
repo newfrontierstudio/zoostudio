@@ -1,8 +1,12 @@
-# ZOOstudio 0.3.2
+# ZOOstudio 0.3.3
 
 **TVRockに代わって予約録画する、無料の開発版です。** 予約と時刻の管理はStudio、受信・録画は設定済みのTVTest・BonDriverが担当します。録画の実行にTVRock本体は不要です。正式版の料金・提供方式は検討中です。
 
-[**インストーラーをダウンロード**](https://github.com/newfrontierstudio/zoostudio/releases/tag/v0.3.2)
+[**インストーラーをダウンロード**](https://github.com/newfrontierstudio/zoostudio/releases/tag/v0.3.3)
+
+## Infernoで手動カット
+
+録画済み一覧の「Inferno」から対象ファイルを直接開けます。IN／OUTで不要区間を指定して削除し、元動画を残してMP4（AV1）へ書き出します。動画追加パックは従来と共用します。録画中のファイルは編集できません。
 
 ## 今回の更新
 
