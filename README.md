@@ -1,4 +1,4 @@
-# ZOOstudio 0.7.0（プレビュー版）
+# ZOOstudio 0.7.2（プレビュー版）
 
 Studio単独で予約・録画・番組表を管理できます。
 
@@ -6,7 +6,9 @@ Studio単独で予約・録画・番組表を管理できます。
 
 空きチューナーで受信確認・番組表取得を並列処理します。録画を優先し、アイコンに録画中の件数を表示します。局名の保存・復元と画面整理も改善しました。
 
-[インストーラーをダウンロード](https://github.com/newfrontierstudio/zoostudio/releases/tag/v0.7.0)
+[インストーラーをダウンロード](https://github.com/newfrontierstudio/zoostudio/releases/tag/v0.7.2)
+
+0.7.2では設定保存と破損時の復旧を改善しました。録画件数は通知領域に表示します。大きいタスクバーアイコンへの反映は改善中です。
 
 更新前にStudioを完全終了してください。
 
