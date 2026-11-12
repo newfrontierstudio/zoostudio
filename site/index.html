@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ZOOstudio — 予約・番組表・録画管理アプリ">
+  <title>ZOOstudio — New Frontier Studio</title>
+  <style>
+    :root { color-scheme: dark; --ink:#e8eff6; --muted:#a5b6c7; --line:#263747; --accent:#80dbcf; --panel:#101b27; }
+    * { box-sizing: border-box; }
+    body { margin:0; min-height:100vh; color:var(--ink); background:radial-gradient(900px 600px at 80% -15%,#1f4752 0%,transparent 65%),#09121d; font-family:"Segoe UI","Yu Gothic UI",sans-serif; }
+    main { max-width:960px; margin:auto; padding:9rem 2rem 5rem; }
+    .eyebrow { color:var(--accent); letter-spacing:.18em; font-size:.78rem; font-weight:700; }
+    h1 { font-size:clamp(3rem,11vw,7rem); margin:.3rem 0; letter-spacing:-.07em; }
+    .lead { max-width:40rem; font-size:1.2rem; line-height:1.8; color:var(--muted); }
+    .actions { display:flex; gap:.8rem; margin:2rem 0 5rem; flex-wrap:wrap; }
+    a.button { display:inline-block; padding:.9rem 1.2rem; border-radius:.45rem; text-decoration:none; font-weight:700; background:var(--accent); color:#071116; }
+    a.button.secondary { color:var(--ink); background:transparent; border:1px solid var(--line); }
+    section { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1rem; }
+    article { border:1px solid var(--line); background:color-mix(in srgb,var(--panel) 88%,transparent); padding:1.25rem; border-radius:.65rem; }
+    h2 { margin:0 0 .65rem; font-size:1rem; } p { color:var(--muted); line-height:1.65; margin:0; }
+    footer { margin-top:5rem; color:#718497; font-size:.8rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">NEW FRONTIER STUDIO</div>
+    <h1>ZOOstudio</h1>
+    <p class="lead">TVRock不要の日時指定予約録画、番組表、録画管理。既存のTVTest・BonDriver環境を活かしながら、録画の流れをひとつの画面にまとめます。</p>
+    <div class="actions">
+      <a class="button" href="https://github.com/newfrontierstudio/zoostudio/releases/latest">最新版をダウンロード</a>
+      <a class="button secondary" href="https://github.com/newfrontierstudio/zoostudio">GitHub</a>
+    </div>
+    <section>
+      <article><h2>0.7.8</h2><p>おすすめ予約に量子認知モデルの設計方針を追加。ファインマンの経路積分、干渉、ボルン則を、推薦を読むための参照枠として明記しました。</p></article>
+      <article><h2>予約・番組表・録画</h2><p>受信設定、番組表、予約、録画済みの情報を一貫して扱います。既存の予約・設定・録画ファイルはそのまま残ります。</p></article>
+      <article><h2>Preview</h2><p>現在は検証中のプレビュー版です。インストール前にリリースノートと注意事項を確認してください。</p></article>
+    </section>
+    <footer>© New Frontier Studio</footer>
+  </main>
+</body>
+</html>
