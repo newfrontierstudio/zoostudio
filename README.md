@@ -2,7 +2,7 @@
 
 番組表・予約・録画を管理するWindows向けアプリです。TVTest・BonDriverの環境を活用できます。
 
-[最新版をダウンロード](https://github.com/newfrontierstudio/zoostudio/releases/latest)
+[最新版をダウンロード](https://github.com/newfrontierstudio/zoostudio/releases/tag/v0.8.1)
 
 ## 0.8.1
 
