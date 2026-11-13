@@ -1,4 +1,4 @@
-# ZOOstudio 0.8.1
+# ZOOstudio 0.8.1（プレビュー版）
 
 番組表・予約・録画を管理するWindows向けアプリです。TVTest・BonDriverの環境を活用できます。
 
