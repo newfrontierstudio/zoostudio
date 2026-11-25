@@ -1,13 +1,13 @@
-# ZOOstudio 0.9.19（プレビュー版）
+﻿# ZOOstudio 0.9.20（安定版）
 
 ## 配布更新（2026-11-22）
 - 受信方式の既定を「Studioで直接受信」に変更しました。
 - インストーラーが重複する.NETランタイムを含まないよう修正しました。
-- 0.9.19の配布です。既存の予約・設定を引き継いで上書き更新できます。
+- 0.9.20の配布です。既存の予約・設定を引き継いで上書き更新できます。
 
 番組表・予約・録画を管理するWindows向けアプリです。TVTest・BonDriverの環境を活用できます。
 
-[最新版をダウンロード](https://github.com/newfrontierstudio/zoostudio/releases/tag/v0.9.19)
+[最新版をダウンロード](https://github.com/newfrontierstudio/zoostudio/releases/tag/v0.9.20)
 
 ## Satlite
 - 自動おすすめの「👍 次のおすすめに活かす」を、おすすめ評価に反映します。自動検索予約は👍の対象外です。
